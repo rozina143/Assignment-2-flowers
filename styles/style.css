@@ -79,6 +79,45 @@ margin-top: 10px;
 font-size: 16px;
 }
 
+  /* Flowers lover section  */
+.flower-love-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.h1{
+    font-size: 50px;
+    font-weight:bolder;
+ font-family: "Noto Serif";
+} 
+
+.flower-img1{
+    width: 250px;
+    height: 250px;
+  position: absolute;
+ left: 360px;
+ top: -90px;
+}
+
+.flower-img2{
+    max-width: 500px;
+}
+
+/* colorful bunch section */
+
+
+
+
+
+
+
+
+
+
+
 
 /* media quary */
 @media screen  and  (max-width:576px) {
@@ -94,7 +133,12 @@ font-size: 16px;
 .card-section{
    grid-template-columns: repeat(2,1fr);
 }
-
+.flower-love-section{
+    flex-direction: column;
+}
+.flower-img1{
+    display: none;
+}
 }
 
 @media  screen and (min-width:576px) and (max-width:992px){
@@ -110,5 +154,8 @@ font-size: 16px;
 .card-section{
    grid-template-columns: repeat(3,1fr);
    
+}
+.flower-love-section{
+    flex-direction: column;
 }
 }
