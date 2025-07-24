@@ -1,0 +1,114 @@
+*{
+    font-family: "Noto Serif";
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+/* common style */
+.color1{
+    color:rgb(137, 135, 161)
+}
+.color2{
+    color:rgb(233, 90, 8);
+}
+
+/* header part */
+/* nav-section */
+.nav-section{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link li {
+list-style: none;
+
+}
+/* navigation-banner */
+.freshflower-banner{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+    
+}
+.freshflower-banner p{
+    max-width: 370px;
+    margin-top: 10px;
+   
+}
+
+/* banner first part */
+.plant{
+    margin-top: 70px;
+}
+.plant h2{
+margin-bottom: 10px;
+}
+/* card section */
+.card-section{
+   margin-top: 40px; 
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+gap: 0 20px;    
+}
+.card{
+    max-width: 270px;
+    height: 460px;
+    line-height: 30px;
+     justify-content: center;
+     margin: 0 auto;
+    
+}
+.btn{
+    background-color: 
+rgb(233, 90, 8);
+margin: auto;
+color: white;
+width:100%;
+padding: 4px;
+margin-top: 10px;
+font-size: 16px;
+}
+
+
+/* media quary */
+@media screen  and  (max-width:576px) {
+.link li{
+    display: none;
+}
+.freshflower-banner{
+    flex-direction: column-reverse;
+    gap: 50px;
+    /* align-items: center; */
+    align-items: start;
+   }
+.card-section{
+   grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+@media  screen and (min-width:576px) and (max-width:992px){
+    .link li{
+    display: none;}
+
+    .freshflower-banner{
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+    
+}
+.card-section{
+   grid-template-columns: repeat(3,1fr);
+   
+}
+}
