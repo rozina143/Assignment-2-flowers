@@ -335,15 +335,17 @@ list-style: none;
 
 .input{
     background-color: #FFF;
-   width: 350px;
+   width: 300px;
    padding: 8px;
+   margin: 0 auto;
+  
 }
 .button{
     background-color:#E95A08;
     position: absolute;
-     padding: 8px 40px;
+     /* padding: 8px 40px; */
      color: aliceblue;
-right: -30px;
+right: -20px;
 }
 
 
