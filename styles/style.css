@@ -61,12 +61,9 @@ margin-bottom: 10px;
 gap: 0 20px;    
 }
 .card{
-    max-width: 270px;
-    height: 460px;
-    line-height: 30px;
+   max-width: 270px;
      justify-content: center;
-     margin: 0 auto;
-    
+     margin-top: 30px;
 }
 .btn{
     background-color: 
@@ -108,9 +105,47 @@ font-size: 16px;
 
 /* colorful bunch section */
 
+.color-bunch{
+    margin-top: 90px;
+    background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 500px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input{
+    background-color: #FFF;
+}
+.button{
+    background-color: brown;
+}
 
 
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    gap: 30px;
 
+}
+.footer-link li{
+list-style: none;
+}
+.webside{
+    display: flex;
+    gap: 40px;
+    align-items: start;
+}
 
 
 
@@ -132,12 +167,39 @@ font-size: 16px;
    }
 .card-section{
    grid-template-columns: repeat(2,1fr);
+   
 }
+
 .flower-love-section{
     flex-direction: column;
+    line-height: normal;
+    gap: 0;
+    margin-top: 30px;
 }
 .flower-img1{
     display: none;
+}
+.flower-p{
+    text-align: center;
+}
+.color-bunch{
+    margin-top: 80px;
+}
+.bunch-p{
+    font-size: 20px;
+   
+}
+.footer{
+    flex-direction: column;
+    align-items: start;
+   margin: 30px;
+
+}
+.footer-link{
+    grid-template-columns: repeat(1,1fr);
+}
+.webside{
+    margin-top:40px;
 }
 }
 
@@ -145,7 +207,7 @@ font-size: 16px;
     .link li{
     display: none;}
 
-    .freshflower-banner{
+.freshflower-banner{
     flex-direction: column-reverse;
     gap: 50px;
     align-items: center;
@@ -157,5 +219,12 @@ font-size: 16px;
 }
 .flower-love-section{
     flex-direction: column;
+}
+
+.footer{
+    flex-direction: column;
+}
+.webside{
+    margin-top:40px;
 }
 }
